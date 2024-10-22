@@ -72,7 +72,7 @@ fi
 
 PID_TD=$(cat /tmp/tdx-demo-td-pid.pid)
 
-echo "Successfully created TD VM! PID: 14566,
+echo "TD, PID: ${PID_TD},
 To login with a non-root user, specified during the creation of
 image, use SSH : ssh -p 10022 <username>@localhost.
 The default non-root user is tdx.
